@@ -1,15 +1,36 @@
+.flex-container{
+  background-color: rgb(191, 191, 191);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+  
+  
+}
+
+.innerdiv{
+background-color: rgb(235, 230, 255);
+  border-style: solid;
+  height: 330px;
+  width: 350px;
+  margin: 5px;
+  
+
+}
+
 .App {
   text-align: center;
-  border: solid black;
-
-}
-
-.box{
-  border: solid black;
-  width: 25%;
-  
   
 }
+
+.img {
+  height: 100px;
+  width: 150px;
+}
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
